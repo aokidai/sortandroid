@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Các giải thuật sắp xếp</string>
+    <string name="bubble">Bubble Sort</string>
+    <string name="intertion">Intertion Sort</string>
+    <string name="merge">Merge Sort</string>
+    <string name="quick">Quick Sort</string>
+    <string name="selection">Selection Sort</string>
+    <string name="yeucau">Vui lòng nhập số</string>
+    <string name="ketqua">Kết quả</string>
+</resources>
