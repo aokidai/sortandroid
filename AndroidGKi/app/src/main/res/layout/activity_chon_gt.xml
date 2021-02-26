@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="140dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChonGt">
+
+    <TextView
+        android:layout_width="191dp"
+        android:layout_height="76dp"
+        android:text="Chọn giải thuật" />
+
+    <RadioGroup
+        android:id="@+id/rdGiaiThuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdBubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bubble" />
+
+        <RadioButton
+            android:id="@+id/rdIntertion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intertion" />
+
+        <RadioButton
+            android:id="@+id/rdMerge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merge" />
+
+        <RadioButton
+            android:id="@+id/rdSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selection" />
+
+        <RadioButton
+            android:id="@+id/rdQuick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick" />
+
+        <RadioButton
+            android:id="@+id/rdShell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shell" />
+
+        <RadioButton
+            android:id="@+id/rdInterchage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interchage" />
+
+        <RadioButton
+            android:id="@+id/rdRadix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radix" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDongGT"
+        android:text="Đống"/>
+
+
+</LinearLayout>
