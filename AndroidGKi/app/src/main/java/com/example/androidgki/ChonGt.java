@@ -50,7 +50,6 @@ public class ChonGt extends AppCompatActivity {
 
     }
     private void showInformation() {
-
         if (rdBubble.isChecked())
             giaithuat += rdBubble.getText();
         if (rdIntertion.isChecked())
@@ -65,6 +64,7 @@ public class ChonGt extends AppCompatActivity {
             giaithuat += rdInterchage.getText();
         if (rdRadix.isChecked())
             giaithuat += rdRadix.getText();
-
+        if (rdSelection.isChecked())
+            giaithuat += rdSelection.getText();
     }
 }

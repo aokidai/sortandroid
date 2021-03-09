@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putIntArray("chuoi",arr);
                 bundle.putStringArray("chitiet", chitiet);
                 intent.putExtra("nhom9",bundle);
-                Toast.makeText(getApplicationContext(),"Bubble Sort.",Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(),"Bubble Sort.",Toast.LENGTH_LONG).show();
                 startActivity(intent);
 
             }
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         }
         }
         else {
-            Toast.makeText(this, "Result: Loi nhap ", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "Result: Loi nhap ", Toast.LENGTH_LONG).show();
         }
         if(requestCode == 998) {
 
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         else {
-            Toast.makeText(this, "Result: Loi nhap ", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "Result: Loi nhap ", Toast.LENGTH_LONG).show();
         }
     }
 }
